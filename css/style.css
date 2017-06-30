@@ -1,0 +1,111 @@
+body {
+	background-color: #0093ff;
+	margin: 30px;
+}
+h1 {
+	font-family: 'Dancing Script', sans-serif;
+	color: lightblue;
+}
+h2 {
+	font-family: 'Dancing Script', cursive;
+	color: lightblue;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: lightblue;
+}
+img {
+	display: block;
+	width: 40%;
+	border-color: #0070ff;
+	border-radius: 10px;
+}
+li {
+	font-family: 'Roboto', sans-serif;
+	color: lightblue;
+}
+
+.topnav {
+  	overflow: hidden;
+  	background-color: #333;
+}
+
+.topnav a {
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: centre;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.topnav a:hover {
+  	background-color: #ddd;
+  	color: black;
+}
+
+.topnav a.active {
+    	background-color: #4CAF50;
+    	color: white;
+}
+
+.bottomnav {
+  	overflow: hidden;
+  	background-color: #333;
+}
+
+.bottomnav a {
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: centre;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+	font-family: 'Roboto', sans-serif;	
+}
+
+p.one {
+    	border-style: solid;
+    	border-color: #0070ff;
+    	border-radius: 5px;
+	background-color: #0070ff;
+}
+
+ul.one {
+    	border-style: solid;
+    	border-color: #0070ff;
+    	border-radius: 5px;
+	background-color: #0070ff;
+}
+
+
+
+
+label {
+	font-family: 'Roboto', sans-serif;
+	color: lightblue;
+	border-style: solid;
+    	border-color: #0070ff;
+    	border-radius: 5px;
+	border-width: 5px;
+	background-color: #0070ff;
+}
+
+input {
+    	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+}
+
+textarea {
+    	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	width:30%;
+}
+
+button {
+    	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+}

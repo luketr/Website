@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="scripts/contact.js" ></script>
+	</head>
+	<body>
+
+		<div class="topnav">
+			<a href=home.html>Home</a>
+  			<a class="active" href="Contact">Contact</a>
+		</div>
+		<h1>Contact me</h1>
+		<label>You can enter your details here to reach me, I will respond as soon as possible.</label>
+		<h2>Fill in the form</h2>
+
+<form>
+
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+<br><br>
+            <input type="text" class="form-control" id="contact-name" name="name"       placeholder="Enter your name" onsubmit='validateName()'>
+            <span class='error-message' id='name-error'></span>
+          </div>
+<br>
+
+          <div class="form-group">
+            <label for="contact-phone">Phone Number</label>
+<br><br>
+            <input type="tel" class="form-control" id="contact-phone" name="phone" placeholder="Enter your phone number" onsubmit='validatePhone()'>
+            <span class='error-message' id='phone-error'></span>
+          </div>
+
+<br>
+
+          <div class="form-group">
+            <label for="contact-email">Email address</label>
+<br><br>
+            <input type="email" class="form-control" id="contact-email" name="email" placeholder="Enter your email" onsubmit='validateEmail()'>
+            <span class='error-message' id='email-error'></span>
+          </div>   
+
+<br>
+
+          <div class="form-group">
+            <label for='contactMessage'>Your Message</label>
+<br><br>
+            <textarea class="form-control" rows="5" id='contact-message'  name='message'  placeholder="Enter a message" onsubmit='validateMessage()'></textarea>
+            <span class='error-message' id='message-error'></span>
+          </div>
+
+<br>
+
+        <button onclick='return validateForm()' class="btn btn-default">Submit</button>
+<br>
+        <span class='error-message' id='submit-error'></span>
+      </form>
+
+<br>
+
+		<div class="bottomnav">
+			<a>My Portfolio: By Luke</a>
+		</div>
+
+	</body>
+</html>
